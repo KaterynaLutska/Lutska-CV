@@ -9,6 +9,7 @@
   margin-right: -40px;
   background-color: rgb(206, 206, 206);
 }
+
 /* hero  */
 
 .hero {
@@ -17,12 +18,13 @@
   padding-top: 220px;
   text-align: center;
 }
+
 .hero-title {
   font-size: 35px;
   margin-bottom: 20px;
 }
 
-._list :not(:last-child) {
+.list :not(:last-child) {
   margin-bottom: 5px;
 }
 
@@ -75,7 +77,9 @@
   font-size: 22px;
   font-weight: 500;
 }
-
+.tech-list :nth-child(n) {
+  margin-bottom: 0px;
+}
 /* main  */
 .main {
   display: flex;
@@ -87,19 +91,16 @@
   width: 50%;
 }
 
-.main-education div {
-  margin-top: 24px;
-}
 .main-projects {
   width: 50%;
   padding: 20px;
 }
-.main-projects div {
-  margin-top: 24px;
-}
-/* .main div:not(:last-child) {
+.main h2 {
   margin-bottom: 20px;
-} */
+}
+.main p {
+  margin-bottom: 20px;
+}
 .text {
   line-height: 150%;
 }
@@ -110,4 +111,5 @@ span {
 
 .text.list {
   list-style-type: square;
+  margin-left: 15px;
 }
